@@ -1,0 +1,4 @@
+_chemical_enantioexcess_bulk
+_chemical_enantioexcess_bulk_technique
+_chemical_enantioexcess_crystal
+_chemical_enantioexcess_crystal_technique
