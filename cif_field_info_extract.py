@@ -138,9 +138,8 @@ def function_to_run(x_tup): #input as a tuple so the number of cifs completed ca
 
 t0 = time.time()
 
-if __name__ == "__main__": #needs this for windows to parallelise
+if __name__ == "__main__": 
     cif_list = open(cif_file_locations, "r") #list of location of all cif files in cif archive
-    t0 = time.time()
     header_list = ["ccdc_number"] + attribute_list
     header_string = ",".join(header_list) + "\n"
     c = cif_list.readlines()
